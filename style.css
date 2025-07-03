@@ -3,15 +3,19 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  background-color: white;
+}
+
 header {
   display: flex;
   align-items: center;
-  text-transform: uppercase;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .brand {
-  color: maroon;
+  color: #800000;
   font-size: 2em;
   font-weight: bold;
 }
@@ -25,12 +29,12 @@ nav {
 }
 
 nav a {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 
 nav a:hover {
-  color: rgb(48, 35, 237);
+  color: #3023ed;
   text-decoration: underline;
 }
 
@@ -47,13 +51,12 @@ main {
 }
 
 .item-list li {
-  border: 2px maroon solid;
-  border-radius: 5px;
-  list-style: none;
-  background-color: maroon;
+  background-color: #800000;
   color: white;
+  border-radius: 5px;
   margin-bottom: 10px;
   padding: 10px;
+  list-style: none;
 }
 
 article {
@@ -64,19 +67,15 @@ article h1 {
   margin-bottom: 10px;
 }
 
-.testimonials {
+.testimonial {
+  background-color: rgb(91, 87, 87, 0.4);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
-}
-
-.testimonial {
-  background-color: rgb(203, 191, 191);
   padding: 10px;
-  font-style: italic;
   width: 95%;
-  gap: 1rem;
+  font-style: italic;
 }
 
 article p {
@@ -84,10 +83,10 @@ article p {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: maroon;
+  background-color: black;
   color: white;
+  width: 100%;
   text-align: center;
+  bottom: 0;
+  position: fixed;
 }
