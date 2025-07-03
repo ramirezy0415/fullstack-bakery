@@ -21,16 +21,16 @@ however you'd like, as long as your submission meets the following requirements.
 You may use the provided screenshot above as a reference for one possible solution,
 but be creative and make it your own!
 
-1. CSS rules are written in external CSS files and linked to `index.html`.
-2. Text properties, such as family, color, or size, have been changed.
-3. A combination of `margin` and `padding` have been used for visual spacing between elements.
+1. CSS rules are written in external CSS files and linked to `index.html`. DONE
+2. Text properties, such as family, color, or size, have been changed. DONE
+3. A combination of `margin` and `padding` have been used for visual spacing between elements. DONE
 4. `gap` is used instead of `margin` and `padding` when spacing flex children.
-5. Relative units are used so that visual spacing scales accordingly with the font size.
-6. The sidebar list items have a different background color from the rest of the page.
-7. The testimonial has a different background color from the rest of the page.
-8. The footer has a different background color from the rest of the page.
+5. Relative units are used so that visual spacing scales accordingly with the font size. DONE (KIND OF)
+6. The sidebar list items have a different background color from the rest of the page. DONE
+7. The testimonial has a different background color from the rest of the page. DONE
+8. The footer has a different background color from the rest of the page. DONE
 9. The contrast ratios of all text on the page pass WCAG AA standards.
-10. Flexbox is used to style the header as a horizontal navbar.
+10. Flexbox is used to style the header as a horizontal navbar. DONE
 11. Flexbox is used to style the aside as a vertical sidebar.
 
 > [!TIP]
