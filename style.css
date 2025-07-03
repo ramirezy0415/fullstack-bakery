@@ -12,12 +12,16 @@ header {
 
 .brand {
   color: maroon;
-  font-size: 3rem;
+  font-size: 2em;
   font-weight: bold;
 }
 
 nav {
   margin-left: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 nav a {
@@ -27,7 +31,6 @@ nav a {
 
 nav a:hover {
   color: rgb(48, 35, 237);
-  margin: 10px;
   text-decoration: underline;
 }
 
@@ -55,27 +58,35 @@ main {
 
 article {
   flex: 1;
-  margin-left: 15px;
 }
 
 article h1 {
   margin-bottom: 10px;
 }
 
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background-color: rgb(203, 191, 191);
+  padding: 10px;
+  font-style: italic;
+  width: 95%;
+  gap: 1rem;
+}
+
 article p {
   margin: 10px;
 }
 
-.testimonial {
-  display: block;
-  background-color: rgb(198, 194, 194);
-  padding: 10px;
-  font-style: italic;
-  margin: 1rem;
-  width: 300px;
-}
-
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: maroon;
   color: white;
   text-align: center;
